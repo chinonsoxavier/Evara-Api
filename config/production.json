@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "name": "Evara - Dev Mode",
+    "port": 4100,
+    "mode": "production",
+    "protocol": "http",
+    "serverUrl": "localhost",
+    "serverUrlWebUrlLink": "localhost:4200/",
+    "database": {
+      "multipleStatements": true,
+      "host": "localhost",
+      "user": "admin",
+      "password": "",
+      "database": "mongodb",
+      "url": "mongodb://localhost:27017/"
+    },
+    "email": {
+      "host": "",
+      "port": "",
+      "username": "",
+      "password": ""
+    }
+  }
+}
